@@ -1,5 +1,6 @@
 import { BackgroundBeams } from "@/components/ui/background-beams";
 import NavBar from "@/components/NavBar";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -12,25 +13,28 @@ export default function Home() {
               About Me
             </h1>
             <p className="mx-auto my-6 text-center text-sm md:text-lg text-white">
-              Computer Science UnderGrade & Web Developer
+              Information Technology UnderGrade & Web Developer
             </p>
             <div className="mt-12 text-center mx-auto flex justify-center bg-gradient-to-b from-teal-500 rounded-full h-72 w-72 md:w-96 md:h-96 overflow-hidden">
-              <img
-                src="avatar.png"
-                alt=""
+              <Image
+                src="/avatar.png"
+                alt="Rishav Kamboj Profile Picture"
+                width={384}
+                height={384}
                 className="flex flex-col w-full h-full object-cover"
               />
             </div>
             <p className="text-neutral-500 mt-8 text-lg max-w-3xl mx-auto my-8  text-center relative z-10">
-              Greetings! I'm Rishav Kamboj, a Information Technology undergraduate and
-              a passionate Full Stack Developer, specializing in building
-              modern, scalable, and user-friendly web applications. My journey
-              in web development is fueled by curiosity, creativity, and a
-              commitment to excellence. I bring a versatile skill set across
-              both front-end and back-end development, enabling me to transform
-              ideas into seamless digital experiences. Currently, I’m exploring
-              AI integration, SaaS products, and open-source contributions,
-              always eager to push the boundaries of what technology can achieve
+              Greetings! I&apos;m Rishav Kamboj, a Information Technology
+              undergraduate and a passionate Full Stack Developer, specializing
+              in building modern, scalable, and user-friendly web applications.
+              My journey in web development is fueled by curiosity, creativity,
+              and a commitment to excellence. I bring a versatile skill set
+              across both front-end and back-end development, enabling me to
+              transform ideas into seamless digital experiences. Currently,
+              I&apos;m exploring AI integration, SaaS products, and open-source
+              contributions, always eager to push the boundaries of what
+              technology can achieve
             </p>
           </div>
           <BackgroundBeams />
