@@ -110,15 +110,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full Stack Developer",
-    company_name: "Rudra Infocom",
-    date: "Currently Working Here", // You'll need to fill in the actual dates
+    title: "Full Stack Developer Intern",
+    company_name: "CodeRower Software Pvt. Ltd.",
+    date: "Currently Working here",
     points: [
-      "Developed an AI chatbot using Vercel AI to launch and manage Meta and Google marketing campaigns.",
-      "Migrated the chatbot's core technology to LangGraph for enhanced capabilities.",
-      "Implemented the chatbot with LlamaIndex to provide deep insights into Google and Meta campaigns.",
-      "Created foundational libraries to streamline fetching and pushing campaign data, serving as the infrastructure for these products.",
-      "Contributed to schema design and DevOps activities to support product development and deployment.",
+      "Transformed static websites into dynamic, data-driven platforms, cutting manual updates by 80%.",
+      "Led mobile app development with React Native, TypeScript & GraphQL, boosting daily active users by 40%.",
+      "Enhanced multiple client websites with new features, responsive designs, and validated forms integrated with APIs.",
+      "Developed blogs, case studies, and policy pages while resolving bugs and improving site stability.",
+      "Delivered production-ready features and daily fixes, consistently improving overall user experience.",
     ],
   },
 ];
@@ -143,7 +143,7 @@ const projects = [
     image: CarRental,
     github_link: "https://github.com/Pratham271/Settle",
   },
-  
+
   {
     name: "Airbnb Clone",
     description:
@@ -163,7 +163,6 @@ const projects = [
     github_link: "https://github.com/Pratham271/write.it",
   },
 ];
-
 
 export { experiences, projects, technologies };
 // services, technologies,
